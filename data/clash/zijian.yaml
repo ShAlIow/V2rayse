@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-16 14:18:55
+# 创建时间：2023-02-16 14:19:17
 # 使用模版：ShAllow
-# 节点数量：25
+# 节点数量：24
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -35,7 +35,6 @@ proxies:
   - {"name":"ja-lightsail","type":"vmess","server":"j.elvissulive.gw.to","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151"}}
   - {"name":"ja-lightsail-cft-cnd","type":"vmess","server":"d1zc27134rlv88.cloudfront.net","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151"}}
   - {"name":"replit_trojan","type":"trojan","server":"le.esae86.repl.co","port":443,"udp":true,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-tr","headers":{"host":"le.esae86.repl.co"}}}
-  - {"name":"replit_vless_1","type":"vless","server":"le.esae86.repl.co","port":443,"uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","servername":"le.esae86.repl.co","network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vl"}}
   - {"name":"replit_xray_vmess_1","type":"vmess","server":"le.esae86.repl.co","port":443,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"le.esae86.repl.co"}}}
   - {"name":"replit_xray_vmess_2","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"node.scarsslife.workers.dev"}}}
   - {"name":"san-do","type":"vmess","server":"146.190.122.127","port":1234,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray"}}
@@ -66,7 +65,6 @@ proxy-groups:
       - ja-lightsail
       - ja-lightsail-cft-cnd
       - replit_trojan
-      - replit_vless_1
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - san-do
@@ -97,7 +95,6 @@ proxy-groups:
       - ja-lightsail
       - ja-lightsail-cft-cnd
       - replit_trojan
-      - replit_vless_1
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - san-do
@@ -128,7 +125,6 @@ proxy-groups:
       - ja-lightsail
       - ja-lightsail-cft-cnd
       - replit_trojan
-      - replit_vless_1
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - san-do
@@ -159,7 +155,6 @@ proxy-groups:
       - ja-lightsail
       - ja-lightsail-cft-cnd
       - replit_trojan
-      - replit_vless_1
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - san-do
@@ -189,7 +184,6 @@ proxy-groups:
       - ja-lightsail
       - ja-lightsail-cft-cnd
       - replit_trojan
-      - replit_vless_1
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - san-do
@@ -219,7 +213,6 @@ proxy-groups:
       - ja-lightsail
       - ja-lightsail-cft-cnd
       - replit_trojan
-      - replit_vless_1
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - san-do
@@ -249,7 +242,6 @@ proxy-groups:
       - ja-lightsail
       - ja-lightsail-cft-cnd
       - replit_trojan
-      - replit_vless_1
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - san-do
@@ -301,7 +293,6 @@ proxy-groups:
       - ja-lightsail
       - ja-lightsail-cft-cnd
       - replit_trojan
-      - replit_vless_1
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - san-do
