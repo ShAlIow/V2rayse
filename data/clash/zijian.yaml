@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-12 05:20:43
+# 创建时间：2023-02-16 14:18:55
 # 使用模版：ShAllow
-# 节点数量：17
+# 节点数量：25
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -22,181 +22,245 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"san-do-gcore-cdn","type":"vmess","server":"icook.hk","port":443,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"g.elvissulive.eu.org"}}}
-  - {"name":"san-do-2-cft-cdn","type":"vmess","server":"d1ysd5vy8elgfc.cloudfront.net","port":443,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts","headers":{"host":"d1ysd5vy8elgfc.cloudfront.net"}}}
-  - {"name":"san-do-2","type":"vmess","server":"ts.elvissu.cloudns.ph","port":26107,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts","headers":{"host":"ts.elvissu.cloudns.ph"}}}
+  - {"name":"Argo_xray_vmess_1","type":"vmess","server":"ip.sb","port":443,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"michelle-whose-amd-trip.trycloudflare.com"}}}
+  - {"name":"Argo_xray_vmess_2","type":"vmess","server":"ip.sb","port":2053,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"michelle-whose-amd-trip.trycloudflare.com"}}}
+  - {"name":"Argo_xray_vmess_3","type":"vmess","server":"ip.sb","port":2083,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"michelle-whose-amd-trip.trycloudflare.com"}}}
+  - {"name":"Argo_xray_vmess_4","type":"vmess","server":"cf.000714.xyz","port":2082,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"michelle-whose-amd-trip.trycloudflare.com"}}}
+  - {"name":"Argo_xray_vmess_5","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"michelle-whose-amd-trip.trycloudflare.com"}}}
+  - {"name":"Argo_xray_vmess_6","type":"vmess","server":"ip.sb","port":443,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Argo_xray_vmess_7","type":"vmess","server":"cf.000714.xyz","port":2082,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Argo_xray_vmess_8","type":"vmess","server":"ip.sb","port":2083,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Argo_xray_vmess_9","type":"vmess","server":"ip.sb","port":2053,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Argo_xray_vmess_10","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"ja-lightsail","type":"vmess","server":"j.elvissulive.gw.to","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151"}}
+  - {"name":"ja-lightsail-cft-cnd","type":"vmess","server":"d1zc27134rlv88.cloudfront.net","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151"}}
+  - {"name":"replit_trojan","type":"trojan","server":"le.esae86.repl.co","port":443,"udp":true,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-tr","headers":{"host":"le.esae86.repl.co"}}}
+  - {"name":"replit_vless_1","type":"vless","server":"le.esae86.repl.co","port":443,"uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","servername":"le.esae86.repl.co","network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vl"}}
+  - {"name":"replit_xray_vmess_1","type":"vmess","server":"le.esae86.repl.co","port":443,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"le.esae86.repl.co"}}}
+  - {"name":"replit_xray_vmess_2","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"node.scarsslife.workers.dev"}}}
   - {"name":"san-do","type":"vmess","server":"146.190.122.127","port":1234,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray"}}
-  - {"name":"replit_xray_vmess_1","type":"vmess","server":"icook.hk","port":80,"cipher":"auto","uuid":"069cc305-f34e-4415-94a2-c4b3974f57b1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/069cc305-f34e-4415-94a2-c4b3974f57b1-vm","headers":{"host":"node.scarsslife.workers.dev"}}}
-  - {"name":"replit_xray_vmess_2","type":"vmess","server":"icook.hk","port":2052,"cipher":"auto","uuid":"069cc305-f34e-4415-94a2-c4b3974f57b1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/069cc305-f34e-4415-94a2-c4b3974f57b1-vm","headers":{"host":"node.scarsslife.workers.dev"}}}
-  - {"name":"replit_xray_vmess_3","type":"vmess","server":"icook.hk","port":2095,"cipher":"auto","uuid":"069cc305-f34e-4415-94a2-c4b3974f57b1","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/069cc305-f34e-4415-94a2-c4b3974f57b1-vm","headers":{"host":"node.scarsslife.workers.dev"}}}
-  - {"name":"replit_xray_vmess_4","type":"vmess","server":"node.elvissulive.repl.co","port":443,"cipher":"auto","uuid":"069cc305-f34e-4415-94a2-c4b3974f57b1","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/069cc305-f34e-4415-94a2-c4b3974f57b1-vm","headers":{"host":"node.elvissulive.repl.co"}}}
-  - {"name":"🇸🇬 sg-do","type":"vmess","server":"s.elvissulive.gw.to","port":443,"cipher":"auto","uuid":"fee2849b-1073-432b-e51f-9366837b37e4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fee2849b-1073-432b-e51f-9366837b37e4","headers":{"host":"s.elvissulive.gw.to"}}}
-  - {"name":"🇸🇬 sg-do-2-cf-cdn","type":"vmess","server":"icook.hk","port":443,"cipher":"auto","uuid":"ceac56b6-fa31-44ab-ee48-b04b6bca3b16","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dosg.elvissu.cloudns.ph"}}}
-  - {"name":"🇸🇬 sg-do-cft-cdn","type":"vmess","server":"d14nk0umhscuyv.cloudfront.net","port":443,"cipher":"auto","uuid":"fee2849b-1073-432b-e51f-9366837b37e4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fee2849b-1073-432b-e51f-9366837b37e4","headers":{"host":"d14nk0umhscuyv.cloudfront.net"}}}
-  - {"name":"🇸🇬 sg-ec2-cf-cdn","type":"vmess","server":"icook.hk","port":443,"cipher":"auto","uuid":"ccd1aeea-7485-44ea-faec-00d9497a1e82","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"s.elvissulive.eu.org"}}}
-  - {"name":"🇺🇸 us-do-cf-cdn","type":"vmess","server":"icook.hk","port":443,"cipher":"auto","uuid":"01976f19-dfd1-434f-ef19-0c2b98474c40","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/01976f19-dfd1-434f-ef19-0c2b98474c40","headers":{"host":"elvissulive.eu.org"}}}
-  - {"name":"ja-lightsail","type":"vmess","server":"j.elvissulive.gw.to","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151","headers":{"host":"j.elvissulive.gw.to"}}}
-  - {"name":"ja-lightsail-cft-cnd","type":"vmess","server":"d1zc27134rlv88.cloudfront.net","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151","headers":{"host":"d1zc27134rlv88.cloudfront.net"}}}
-  - {"name":"replit_xray_trojan\r","type":"trojan","server":"node.elvissulive.repl.co","port":443,"udp":true,"password":"069cc305-f34e-4415-94a2-c4b3974f57b1","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"$/069cc305-f34e-4415-94a2-c4b3974f57b1-tr","headers":{"host":"$node.elvissulive.repl.co"}}}
-  - {"name":"replit_xray_vmess_5","type":"vmess","server":"vs.elvissulive.repl.co","port":443,"cipher":"auto","uuid":"a878c27a-575d-4d49-97e1-2b9d9fcf9063","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/a878c27a-575d-4d49-97e1-2b9d9fcf9063","headers":{"host":"vs.elvissulive.repl.co"}}}
+  - {"name":"san-do-2","type":"vmess","server":"ts.elvissu.cloudns.ph","port":26107,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts"}}
+  - {"name":"san-do-2-cft-cdn","type":"vmess","server":"d1ysd5vy8elgfc.cloudfront.net","port":443,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts"}}
+  - {"name":"san-do-gcore-cdn","type":"vmess","server":"ip.sb","port":443,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"g.elvissulive.eu.org"}}}
+  - {"name":"sg-do","type":"vmess","server":"s.elvissulive.gw.to","port":443,"cipher":"auto","uuid":"fee2849b-1073-432b-e51f-9366837b37e4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fee2849b-1073-432b-e51f-9366837b37e4"}}
+  - {"name":"sg-do-2-cf-cdn","type":"vmess","server":"ip.sb","port":443,"cipher":"auto","uuid":"ceac56b6-fa31-44ab-ee48-b04b6bca3b16","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dosg.elvissu.cloudns.ph"}}}
+  - {"name":"sg-do-cft-cdn","type":"vmess","server":"d14nk0umhscuyv.cloudfront.net","port":443,"cipher":"auto","uuid":"fee2849b-1073-432b-e51f-9366837b37e4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fee2849b-1073-432b-e51f-9366837b37e4"}}
+  - {"name":"sg-ec2-cf-cdn","type":"vmess","server":"ip.sb","port":443,"cipher":"auto","uuid":"ccd1aeea-7485-44ea-faec-00d9497a1e82","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"s.elvissulive.eu.org"}}}
+  - {"name":"us-do-cf-cdn","type":"vmess","server":"ip.sb","port":443,"cipher":"auto","uuid":"01976f19-dfd1-434f-ef19-0c2b98474c40","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/01976f19-dfd1-434f-ef19-0c2b98474c40","headers":{"host":"elvissulive.eu.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - san-do-gcore-cdn
-      - san-do-2-cft-cdn
-      - san-do-2
-      - san-do
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
-      - replit_xray_vmess_3
-      - replit_xray_vmess_4
-      - 🇸🇬 sg-do
-      - 🇸🇬 sg-do-2-cf-cdn
-      - 🇸🇬 sg-do-cft-cdn
-      - 🇸🇬 sg-ec2-cf-cdn
-      - 🇺🇸 us-do-cf-cdn
+      - Argo_xray_vmess_1
+      - Argo_xray_vmess_2
+      - Argo_xray_vmess_3
+      - Argo_xray_vmess_4
+      - Argo_xray_vmess_5
+      - Argo_xray_vmess_6
+      - Argo_xray_vmess_7
+      - Argo_xray_vmess_8
+      - Argo_xray_vmess_9
+      - Argo_xray_vmess_10
       - ja-lightsail
       - ja-lightsail-cft-cnd
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_5
+      - replit_trojan
+      - replit_vless_1
+      - replit_xray_vmess_1
+      - replit_xray_vmess_2
+      - san-do
+      - san-do-2
+      - san-do-2-cft-cdn
+      - san-do-gcore-cdn
+      - sg-do
+      - sg-do-2-cf-cdn
+      - sg-do-cft-cdn
+      - sg-ec2-cf-cdn
+      - us-do-cf-cdn
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - san-do-gcore-cdn
-      - san-do-2-cft-cdn
-      - san-do-2
-      - san-do
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
-      - replit_xray_vmess_3
-      - replit_xray_vmess_4
-      - 🇸🇬 sg-do
-      - 🇸🇬 sg-do-2-cf-cdn
-      - 🇸🇬 sg-do-cft-cdn
-      - 🇸🇬 sg-ec2-cf-cdn
-      - 🇺🇸 us-do-cf-cdn
+      - Argo_xray_vmess_1
+      - Argo_xray_vmess_2
+      - Argo_xray_vmess_3
+      - Argo_xray_vmess_4
+      - Argo_xray_vmess_5
+      - Argo_xray_vmess_6
+      - Argo_xray_vmess_7
+      - Argo_xray_vmess_8
+      - Argo_xray_vmess_9
+      - Argo_xray_vmess_10
       - ja-lightsail
       - ja-lightsail-cft-cnd
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_5
+      - replit_trojan
+      - replit_vless_1
+      - replit_xray_vmess_1
+      - replit_xray_vmess_2
+      - san-do
+      - san-do-2
+      - san-do-2-cft-cdn
+      - san-do-gcore-cdn
+      - sg-do
+      - sg-do-2-cf-cdn
+      - sg-do-cft-cdn
+      - sg-ec2-cf-cdn
+      - us-do-cf-cdn
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - san-do-gcore-cdn
-      - san-do-2-cft-cdn
-      - san-do-2
-      - san-do
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
-      - replit_xray_vmess_3
-      - replit_xray_vmess_4
-      - 🇸🇬 sg-do
-      - 🇸🇬 sg-do-2-cf-cdn
-      - 🇸🇬 sg-do-cft-cdn
-      - 🇸🇬 sg-ec2-cf-cdn
-      - 🇺🇸 us-do-cf-cdn
+      - Argo_xray_vmess_1
+      - Argo_xray_vmess_2
+      - Argo_xray_vmess_3
+      - Argo_xray_vmess_4
+      - Argo_xray_vmess_5
+      - Argo_xray_vmess_6
+      - Argo_xray_vmess_7
+      - Argo_xray_vmess_8
+      - Argo_xray_vmess_9
+      - Argo_xray_vmess_10
       - ja-lightsail
       - ja-lightsail-cft-cnd
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_5
+      - replit_trojan
+      - replit_vless_1
+      - replit_xray_vmess_1
+      - replit_xray_vmess_2
+      - san-do
+      - san-do-2
+      - san-do-2-cft-cdn
+      - san-do-gcore-cdn
+      - sg-do
+      - sg-do-2-cf-cdn
+      - sg-do-cft-cdn
+      - sg-ec2-cf-cdn
+      - us-do-cf-cdn
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - san-do-gcore-cdn
-      - san-do-2-cft-cdn
-      - san-do-2
-      - san-do
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
-      - replit_xray_vmess_3
-      - replit_xray_vmess_4
-      - 🇸🇬 sg-do
-      - 🇸🇬 sg-do-2-cf-cdn
-      - 🇸🇬 sg-do-cft-cdn
-      - 🇸🇬 sg-ec2-cf-cdn
-      - 🇺🇸 us-do-cf-cdn
+      - Argo_xray_vmess_1
+      - Argo_xray_vmess_2
+      - Argo_xray_vmess_3
+      - Argo_xray_vmess_4
+      - Argo_xray_vmess_5
+      - Argo_xray_vmess_6
+      - Argo_xray_vmess_7
+      - Argo_xray_vmess_8
+      - Argo_xray_vmess_9
+      - Argo_xray_vmess_10
       - ja-lightsail
       - ja-lightsail-cft-cnd
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_5
+      - replit_trojan
+      - replit_vless_1
+      - replit_xray_vmess_1
+      - replit_xray_vmess_2
+      - san-do
+      - san-do-2
+      - san-do-2-cft-cdn
+      - san-do-gcore-cdn
+      - sg-do
+      - sg-do-2-cf-cdn
+      - sg-do-cft-cdn
+      - sg-ec2-cf-cdn
+      - us-do-cf-cdn
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - san-do-gcore-cdn
-      - san-do-2-cft-cdn
-      - san-do-2
-      - san-do
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
-      - replit_xray_vmess_3
-      - replit_xray_vmess_4
-      - 🇸🇬 sg-do
-      - 🇸🇬 sg-do-2-cf-cdn
-      - 🇸🇬 sg-do-cft-cdn
-      - 🇸🇬 sg-ec2-cf-cdn
-      - 🇺🇸 us-do-cf-cdn
+      - Argo_xray_vmess_1
+      - Argo_xray_vmess_2
+      - Argo_xray_vmess_3
+      - Argo_xray_vmess_4
+      - Argo_xray_vmess_5
+      - Argo_xray_vmess_6
+      - Argo_xray_vmess_7
+      - Argo_xray_vmess_8
+      - Argo_xray_vmess_9
+      - Argo_xray_vmess_10
       - ja-lightsail
       - ja-lightsail-cft-cnd
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_5
+      - replit_trojan
+      - replit_vless_1
+      - replit_xray_vmess_1
+      - replit_xray_vmess_2
+      - san-do
+      - san-do-2
+      - san-do-2-cft-cdn
+      - san-do-gcore-cdn
+      - sg-do
+      - sg-do-2-cf-cdn
+      - sg-do-cft-cdn
+      - sg-ec2-cf-cdn
+      - us-do-cf-cdn
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - san-do-gcore-cdn
-      - san-do-2-cft-cdn
-      - san-do-2
-      - san-do
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
-      - replit_xray_vmess_3
-      - replit_xray_vmess_4
-      - 🇸🇬 sg-do
-      - 🇸🇬 sg-do-2-cf-cdn
-      - 🇸🇬 sg-do-cft-cdn
-      - 🇸🇬 sg-ec2-cf-cdn
-      - 🇺🇸 us-do-cf-cdn
+      - Argo_xray_vmess_1
+      - Argo_xray_vmess_2
+      - Argo_xray_vmess_3
+      - Argo_xray_vmess_4
+      - Argo_xray_vmess_5
+      - Argo_xray_vmess_6
+      - Argo_xray_vmess_7
+      - Argo_xray_vmess_8
+      - Argo_xray_vmess_9
+      - Argo_xray_vmess_10
       - ja-lightsail
       - ja-lightsail-cft-cnd
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_5
+      - replit_trojan
+      - replit_vless_1
+      - replit_xray_vmess_1
+      - replit_xray_vmess_2
+      - san-do
+      - san-do-2
+      - san-do-2-cft-cdn
+      - san-do-gcore-cdn
+      - sg-do
+      - sg-do-2-cf-cdn
+      - sg-do-cft-cdn
+      - sg-ec2-cf-cdn
+      - us-do-cf-cdn
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - san-do-gcore-cdn
-      - san-do-2-cft-cdn
-      - san-do-2
-      - san-do
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
-      - replit_xray_vmess_3
-      - replit_xray_vmess_4
-      - 🇸🇬 sg-do
-      - 🇸🇬 sg-do-2-cf-cdn
-      - 🇸🇬 sg-do-cft-cdn
-      - 🇸🇬 sg-ec2-cf-cdn
-      - 🇺🇸 us-do-cf-cdn
+      - Argo_xray_vmess_1
+      - Argo_xray_vmess_2
+      - Argo_xray_vmess_3
+      - Argo_xray_vmess_4
+      - Argo_xray_vmess_5
+      - Argo_xray_vmess_6
+      - Argo_xray_vmess_7
+      - Argo_xray_vmess_8
+      - Argo_xray_vmess_9
+      - Argo_xray_vmess_10
       - ja-lightsail
       - ja-lightsail-cft-cnd
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_5
+      - replit_trojan
+      - replit_vless_1
+      - replit_xray_vmess_1
+      - replit_xray_vmess_2
+      - san-do
+      - san-do-2
+      - san-do-2-cft-cdn
+      - san-do-gcore-cdn
+      - sg-do
+      - sg-do-2-cf-cdn
+      - sg-do-cft-cdn
+      - sg-ec2-cf-cdn
+      - us-do-cf-cdn
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -224,23 +288,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - san-do-gcore-cdn
-      - san-do-2-cft-cdn
-      - san-do-2
-      - san-do
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
-      - replit_xray_vmess_3
-      - replit_xray_vmess_4
-      - 🇸🇬 sg-do
-      - 🇸🇬 sg-do-2-cf-cdn
-      - 🇸🇬 sg-do-cft-cdn
-      - 🇸🇬 sg-ec2-cf-cdn
-      - 🇺🇸 us-do-cf-cdn
+      - Argo_xray_vmess_1
+      - Argo_xray_vmess_2
+      - Argo_xray_vmess_3
+      - Argo_xray_vmess_4
+      - Argo_xray_vmess_5
+      - Argo_xray_vmess_6
+      - Argo_xray_vmess_7
+      - Argo_xray_vmess_8
+      - Argo_xray_vmess_9
+      - Argo_xray_vmess_10
       - ja-lightsail
       - ja-lightsail-cft-cnd
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_5
+      - replit_trojan
+      - replit_vless_1
+      - replit_xray_vmess_1
+      - replit_xray_vmess_2
+      - san-do
+      - san-do-2
+      - san-do-2-cft-cdn
+      - san-do-gcore-cdn
+      - sg-do
+      - sg-do-2-cf-cdn
+      - sg-do-cft-cdn
+      - sg-ec2-cf-cdn
+      - us-do-cf-cdn
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
