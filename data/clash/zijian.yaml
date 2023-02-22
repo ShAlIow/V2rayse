@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-23 02:02:39
+# 创建时间：2023-02-23 02:04:09
 # 使用模版：ShAllow
-# 节点数量：34
+# 节点数量：32
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -50,8 +50,6 @@ proxies:
   - {"name":"Lightsail-JP-CFT","type":"vmess","server":"d1zc27134rlv88.cloudfront.net","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151"}}
   - {"name":"replit_xray_ss\r","type":"ss","server":"le.esae86.repl.co","port":443,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","cipher":"chacha20-ietf-poly1305"}
   - {"name":"replit_xray_trojan\r","type":"trojan","server":"le.esae86.repl.co","port":443,"udp":true,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-tr","headers":{"host":"le.esae86.repl.co"}}}
-  - {"name":"replit_xray_vless\r_1","type":"vless","server":"le.esae86.repl.co","port":443,"uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","servername":"le.esae86.repl.co","network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vl"}}
-  - {"name":"replit_xray_vless\r_2","type":"vless","server":"cf.000714.xyz","port":8080,"uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","servername":"node.scarsslife.workers.dev","network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vl"}}
   - {"name":"replit_xray_vmess_1","type":"vmess","server":"le.esae86.repl.co","port":443,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"le.esae86.repl.co"}}}
   - {"name":"replit_xray_vmess_2","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"node.scarsslife.workers.dev"}}}
   - {"name":"VC-EU-3_2","type":"vmess","server":"cf.000714.xyz","port":2052,"cipher":"auto","uuid":"ddf88167-b298-446d-a765-517f79a71a0a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ddf88167-b298-446d-a765-517f79a71a0a","headers":{"host":"vc.elvissulive.gw.to"}}}
@@ -90,8 +88,6 @@ proxy-groups:
       - Lightsail-JP-CFT
       - "replit_xray_ss\r"
       - "replit_xray_trojan\r"
-      - "replit_xray_vless\r_1"
-      - "replit_xray_vless\r_2"
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - VC-EU-3_2
@@ -130,8 +126,6 @@ proxy-groups:
       - Lightsail-JP-CFT
       - "replit_xray_ss\r"
       - "replit_xray_trojan\r"
-      - "replit_xray_vless\r_1"
-      - "replit_xray_vless\r_2"
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - VC-EU-3_2
@@ -170,8 +164,6 @@ proxy-groups:
       - Lightsail-JP-CFT
       - "replit_xray_ss\r"
       - "replit_xray_trojan\r"
-      - "replit_xray_vless\r_1"
-      - "replit_xray_vless\r_2"
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - VC-EU-3_2
@@ -210,8 +202,6 @@ proxy-groups:
       - Lightsail-JP-CFT
       - "replit_xray_ss\r"
       - "replit_xray_trojan\r"
-      - "replit_xray_vless\r_1"
-      - "replit_xray_vless\r_2"
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - VC-EU-3_2
@@ -249,8 +239,6 @@ proxy-groups:
       - Lightsail-JP-CFT
       - "replit_xray_ss\r"
       - "replit_xray_trojan\r"
-      - "replit_xray_vless\r_1"
-      - "replit_xray_vless\r_2"
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - VC-EU-3_2
@@ -288,8 +276,6 @@ proxy-groups:
       - Lightsail-JP-CFT
       - "replit_xray_ss\r"
       - "replit_xray_trojan\r"
-      - "replit_xray_vless\r_1"
-      - "replit_xray_vless\r_2"
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - VC-EU-3_2
@@ -327,8 +313,6 @@ proxy-groups:
       - Lightsail-JP-CFT
       - "replit_xray_ss\r"
       - "replit_xray_trojan\r"
-      - "replit_xray_vless\r_1"
-      - "replit_xray_vless\r_2"
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - VC-EU-3_2
@@ -388,8 +372,6 @@ proxy-groups:
       - Lightsail-JP-CFT
       - "replit_xray_ss\r"
       - "replit_xray_trojan\r"
-      - "replit_xray_vless\r_1"
-      - "replit_xray_vless\r_2"
       - replit_xray_vmess_1
       - replit_xray_vmess_2
       - VC-EU-3_2
