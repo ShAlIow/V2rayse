@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-09 12:11:26
+# 创建时间：2023-03-09 12:36:57
 # 使用模版：ShAllow
-# 节点数量：32
+# 节点数量：28
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -22,34 +22,30 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"VC-EU-3_1","type":"vmess","server":"cf.515188.xyz","port":443,"cipher":"auto","uuid":"ddf88167-b298-446d-a765-517f79a71a0a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ddf88167-b298-446d-a765-517f79a71a0a","headers":{"host":"vc.elvissulive.gw.to"}}}
-  - {"name":"Argo_xray_trojan\r","type":"trojan","server":"www.shopify.com","port":443,"udp":true,"password":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","sni":"dop.silves.pro","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-tr","headers":{"host":"dop.silves.pro"}}}
-  - {"name":"Argo_xray_vmess_1","type":"vmess","server":"cf.000714.xyz","port":2082,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
-  - {"name":"Argo_xray_vmess_2","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
-  - {"name":"Argo_xray_vmess_3","type":"vmess","server":"www.shopify.com","port":443,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
-  - {"name":"Argo_xray_vmess_4","type":"vmess","server":"www.shopify.com","port":2083,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
-  - {"name":"Argo_xray_vmess_5","type":"vmess","server":"www.shopify.com","port":2053,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
-  - {"name":"Argo-Trojan-daki-ip\r","type":"trojan","server":"cf.515188.xyz","port":443,"udp":true,"password":"b7b28061-5e6d-4e11-b094-04d3c98a5dad","sni":"daki.elvissulive.gw.to","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argo-trojan","headers":{"host":"daki.elvissulive.gw.to"}}}
+  - {"name":"Daki-DE-1","type":"trojan","server":"www.shopify.com","port":443,"udp":true,"password":"b7b28061-5e6d-4e11-b094-04d3c98a5dad","sni":"daki.elvissulive.gw.to","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argo-trojan","headers":{"host":"daki.elvissulive.gw.to"}}}
   - {"name":"DO-SG-1","type":"vmess","server":"s.elvissulive.gw.to","port":443,"cipher":"auto","uuid":"fee2849b-1073-432b-e51f-9366837b37e4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fee2849b-1073-432b-e51f-9366837b37e4"}}
   - {"name":"DO-SG-1-CFT","type":"vmess","server":"d14nk0umhscuyv.cloudfront.net","port":443,"cipher":"auto","uuid":"fee2849b-1073-432b-e51f-9366837b37e4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fee2849b-1073-432b-e51f-9366837b37e4"}}
   - {"name":"DO-SG-2","type":"vmess","server":"cf.000714.xyz","port":8880,"cipher":"auto","uuid":"ceac56b6-fa31-44ab-ee48-b04b6bca3b16","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dosg.elvissu.cloudns.ph"}}}
-  - {"name":"DO-SG-2-CF","type":"vmess","server":"www.digitalocean.com","port":443,"cipher":"auto","uuid":"ceac56b6-fa31-44ab-ee48-b04b6bca3b16","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dosg.elvissu.cloudns.ph"}}}
   - {"name":"DO-US-1-CF","type":"vmess","server":"icook.tw","port":443,"cipher":"auto","uuid":"01976f19-dfd1-434f-ef19-0c2b98474c40","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/01976f19-dfd1-434f-ef19-0c2b98474c40","headers":{"host":"elvissulive.eu.org"}}}
   - {"name":"DO-US-2_1","type":"vmess","server":"146.190.122.127","port":1234,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray"}}
   - {"name":"DO-US-2_2","type":"vmess","server":"ts.elvissu.cloudns.ph","port":26107,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts"}}
   - {"name":"DO-US-2-CFT","type":"vmess","server":"d1ysd5vy8elgfc.cloudfront.net","port":443,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts"}}
   - {"name":"DO-US-2-GCORE","type":"vmess","server":"www.shopify.com","port":443,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"g.elvissulive.eu.org"}}}
+  - {"name":"Doprax-DE-1","type":"trojan","server":"www.shopify.com","port":443,"udp":true,"password":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","sni":"dop.silves.pro","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-tr","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Doprax-DE-2","type":"vmess","server":"cf.000714.xyz","port":2082,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Doprax-DE-3","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Doprax-DE-4","type":"vmess","server":"www.shopify.com","port":443,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Doprax-DE-5","type":"vmess","server":"www.shopify.com","port":2083,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Doprax-DE-6","type":"vmess","server":"www.shopify.com","port":2053,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
   - {"name":"EC2-SG","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"ccd1aeea-7485-44ea-faec-00d9497a1e82","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"s.elvissulive.eu.org"}}}
-  - {"name":"EC2-SG-CF","type":"vmess","server":"www.shopify.com","port":443,"cipher":"auto","uuid":"ccd1aeea-7485-44ea-faec-00d9497a1e82","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"s.elvissulive.eu.org"}}}
   - {"name":"Esvps","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"f6cbd3d0-d824-4419-a5dd-5720f27c13f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f6cbd3d0-d824-4419-a5dd-5720f27c13f0","headers":{"host":"es.ae86.app"}}}
   - {"name":"Hax-EU-1","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"a3cd72cf-b471-4093-d3de-acb34ac4578f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/a3cd72cf-b471-4093-d3de-acb34ac4578f","headers":{"host":"heu.elvissulive.gw.to"}}}
   - {"name":"Hax-EU-4","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"6ca7c605-da24-4562-bd79-210898d4b2c8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6ca7c605-da24-4562-bd79-210898d4b2c8","headers":{"host":"heu4.elvissulive.gw.to"}}}
-  - {"name":"Lightsail-JP","type":"vmess","server":"j.elvissulive.gw.to","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151"}}
+  - {"name":"Lightsail-JP","type":"vmess","server":"13.35.13.239","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151","headers":{"host":"d1zc27134rlv88.cloudfront.net"}}}
   - {"name":"Lightsail-JP-CFT","type":"vmess","server":"d1zc27134rlv88.cloudfront.net","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151"}}
-  - {"name":"replit_xray_ss\r","type":"ss","server":"le.esae86.repl.co","port":443,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"replit_xray_trojan\r","type":"trojan","server":"le.esae86.repl.co","port":443,"udp":true,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-tr","headers":{"host":"le.esae86.repl.co"}}}
-  - {"name":"replit_xray_vmess_1","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"node.scarsslife.workers.dev"}}}
-  - {"name":"replit_xray_vmess_2","type":"vmess","server":"le.esae86.repl.co","port":443,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"le.esae86.repl.co"}}}
+  - {"name":"Replit-IN-1","type":"trojan","server":"le.esae86.repl.co","port":443,"udp":true,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-tr","headers":{"host":"le.esae86.repl.co"}}}
+  - {"name":"Replit-IN-2","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"node.scarsslife.workers.dev"}}}
+  - {"name":"Replit-IN-3","type":"vmess","server":"le.esae86.repl.co","port":443,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"le.esae86.repl.co"}}}
   - {"name":"VC-CA1","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"0cef6fad-037f-4ee4-b662-55ba5d8882ca","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0cef6fad-037f-4ee4-b662-55ba5d8882ca","headers":{"host":"vca.elvissulive.gw.to"}}}
   - {"name":"VC-EU-3_2","type":"vmess","server":"cf.000714.xyz","port":2052,"cipher":"auto","uuid":"ddf88167-b298-446d-a765-517f79a71a0a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ddf88167-b298-446d-a765-517f79a71a0a","headers":{"host":"vc.elvissulive.gw.to"}}}
   - {"name":"Woiden-EU-6","type":"vmess","server":"www.shopify.com","port":443,"cipher":"auto","uuid":"0b83af40-a16f-431d-fcd0-6bc9099e3337","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0b83af40-a16f-431d-fcd0-6bc9099e3337","headers":{"host":"new.elvissulive.gw.to"}}}
@@ -60,34 +56,30 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - VC-EU-3_1
-      - "Argo_xray_trojan\r"
-      - Argo_xray_vmess_1
-      - Argo_xray_vmess_2
-      - Argo_xray_vmess_3
-      - Argo_xray_vmess_4
-      - Argo_xray_vmess_5
-      - "Argo-Trojan-daki-ip\r"
+      - Daki-DE-1
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
-      - DO-SG-2-CF
       - DO-US-1-CF
       - DO-US-2_1
       - DO-US-2_2
       - DO-US-2-CFT
       - DO-US-2-GCORE
+      - Doprax-DE-1
+      - Doprax-DE-2
+      - Doprax-DE-3
+      - Doprax-DE-4
+      - Doprax-DE-5
+      - Doprax-DE-6
       - EC2-SG
-      - EC2-SG-CF
       - Esvps
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - "replit_xray_ss\r"
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
+      - Replit-IN-1
+      - Replit-IN-2
+      - Replit-IN-3
       - VC-CA1
       - VC-EU-3_2
       - Woiden-EU-6
@@ -98,34 +90,30 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - VC-EU-3_1
-      - "Argo_xray_trojan\r"
-      - Argo_xray_vmess_1
-      - Argo_xray_vmess_2
-      - Argo_xray_vmess_3
-      - Argo_xray_vmess_4
-      - Argo_xray_vmess_5
-      - "Argo-Trojan-daki-ip\r"
+      - Daki-DE-1
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
-      - DO-SG-2-CF
       - DO-US-1-CF
       - DO-US-2_1
       - DO-US-2_2
       - DO-US-2-CFT
       - DO-US-2-GCORE
+      - Doprax-DE-1
+      - Doprax-DE-2
+      - Doprax-DE-3
+      - Doprax-DE-4
+      - Doprax-DE-5
+      - Doprax-DE-6
       - EC2-SG
-      - EC2-SG-CF
       - Esvps
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - "replit_xray_ss\r"
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
+      - Replit-IN-1
+      - Replit-IN-2
+      - Replit-IN-3
       - VC-CA1
       - VC-EU-3_2
       - Woiden-EU-6
@@ -136,34 +124,30 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VC-EU-3_1
-      - "Argo_xray_trojan\r"
-      - Argo_xray_vmess_1
-      - Argo_xray_vmess_2
-      - Argo_xray_vmess_3
-      - Argo_xray_vmess_4
-      - Argo_xray_vmess_5
-      - "Argo-Trojan-daki-ip\r"
+      - Daki-DE-1
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
-      - DO-SG-2-CF
       - DO-US-1-CF
       - DO-US-2_1
       - DO-US-2_2
       - DO-US-2-CFT
       - DO-US-2-GCORE
+      - Doprax-DE-1
+      - Doprax-DE-2
+      - Doprax-DE-3
+      - Doprax-DE-4
+      - Doprax-DE-5
+      - Doprax-DE-6
       - EC2-SG
-      - EC2-SG-CF
       - Esvps
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - "replit_xray_ss\r"
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
+      - Replit-IN-1
+      - Replit-IN-2
+      - Replit-IN-3
       - VC-CA1
       - VC-EU-3_2
       - Woiden-EU-6
@@ -174,34 +158,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - VC-EU-3_1
-      - "Argo_xray_trojan\r"
-      - Argo_xray_vmess_1
-      - Argo_xray_vmess_2
-      - Argo_xray_vmess_3
-      - Argo_xray_vmess_4
-      - Argo_xray_vmess_5
-      - "Argo-Trojan-daki-ip\r"
+      - Daki-DE-1
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
-      - DO-SG-2-CF
       - DO-US-1-CF
       - DO-US-2_1
       - DO-US-2_2
       - DO-US-2-CFT
       - DO-US-2-GCORE
+      - Doprax-DE-1
+      - Doprax-DE-2
+      - Doprax-DE-3
+      - Doprax-DE-4
+      - Doprax-DE-5
+      - Doprax-DE-6
       - EC2-SG
-      - EC2-SG-CF
       - Esvps
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - "replit_xray_ss\r"
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
+      - Replit-IN-1
+      - Replit-IN-2
+      - Replit-IN-3
       - VC-CA1
       - VC-EU-3_2
       - Woiden-EU-6
@@ -211,34 +191,30 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - VC-EU-3_1
-      - "Argo_xray_trojan\r"
-      - Argo_xray_vmess_1
-      - Argo_xray_vmess_2
-      - Argo_xray_vmess_3
-      - Argo_xray_vmess_4
-      - Argo_xray_vmess_5
-      - "Argo-Trojan-daki-ip\r"
+      - Daki-DE-1
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
-      - DO-SG-2-CF
       - DO-US-1-CF
       - DO-US-2_1
       - DO-US-2_2
       - DO-US-2-CFT
       - DO-US-2-GCORE
+      - Doprax-DE-1
+      - Doprax-DE-2
+      - Doprax-DE-3
+      - Doprax-DE-4
+      - Doprax-DE-5
+      - Doprax-DE-6
       - EC2-SG
-      - EC2-SG-CF
       - Esvps
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - "replit_xray_ss\r"
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
+      - Replit-IN-1
+      - Replit-IN-2
+      - Replit-IN-3
       - VC-CA1
       - VC-EU-3_2
       - Woiden-EU-6
@@ -248,34 +224,30 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - VC-EU-3_1
-      - "Argo_xray_trojan\r"
-      - Argo_xray_vmess_1
-      - Argo_xray_vmess_2
-      - Argo_xray_vmess_3
-      - Argo_xray_vmess_4
-      - Argo_xray_vmess_5
-      - "Argo-Trojan-daki-ip\r"
+      - Daki-DE-1
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
-      - DO-SG-2-CF
       - DO-US-1-CF
       - DO-US-2_1
       - DO-US-2_2
       - DO-US-2-CFT
       - DO-US-2-GCORE
+      - Doprax-DE-1
+      - Doprax-DE-2
+      - Doprax-DE-3
+      - Doprax-DE-4
+      - Doprax-DE-5
+      - Doprax-DE-6
       - EC2-SG
-      - EC2-SG-CF
       - Esvps
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - "replit_xray_ss\r"
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
+      - Replit-IN-1
+      - Replit-IN-2
+      - Replit-IN-3
       - VC-CA1
       - VC-EU-3_2
       - Woiden-EU-6
@@ -285,34 +257,30 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - VC-EU-3_1
-      - "Argo_xray_trojan\r"
-      - Argo_xray_vmess_1
-      - Argo_xray_vmess_2
-      - Argo_xray_vmess_3
-      - Argo_xray_vmess_4
-      - Argo_xray_vmess_5
-      - "Argo-Trojan-daki-ip\r"
+      - Daki-DE-1
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
-      - DO-SG-2-CF
       - DO-US-1-CF
       - DO-US-2_1
       - DO-US-2_2
       - DO-US-2-CFT
       - DO-US-2-GCORE
+      - Doprax-DE-1
+      - Doprax-DE-2
+      - Doprax-DE-3
+      - Doprax-DE-4
+      - Doprax-DE-5
+      - Doprax-DE-6
       - EC2-SG
-      - EC2-SG-CF
       - Esvps
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - "replit_xray_ss\r"
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
+      - Replit-IN-1
+      - Replit-IN-2
+      - Replit-IN-3
       - VC-CA1
       - VC-EU-3_2
       - Woiden-EU-6
@@ -344,34 +312,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - VC-EU-3_1
-      - "Argo_xray_trojan\r"
-      - Argo_xray_vmess_1
-      - Argo_xray_vmess_2
-      - Argo_xray_vmess_3
-      - Argo_xray_vmess_4
-      - Argo_xray_vmess_5
-      - "Argo-Trojan-daki-ip\r"
+      - Daki-DE-1
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
-      - DO-SG-2-CF
       - DO-US-1-CF
       - DO-US-2_1
       - DO-US-2_2
       - DO-US-2-CFT
       - DO-US-2-GCORE
+      - Doprax-DE-1
+      - Doprax-DE-2
+      - Doprax-DE-3
+      - Doprax-DE-4
+      - Doprax-DE-5
+      - Doprax-DE-6
       - EC2-SG
-      - EC2-SG-CF
       - Esvps
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - "replit_xray_ss\r"
-      - "replit_xray_trojan\r"
-      - replit_xray_vmess_1
-      - replit_xray_vmess_2
+      - Replit-IN-1
+      - Replit-IN-2
+      - Replit-IN-3
       - VC-CA1
       - VC-EU-3_2
       - Woiden-EU-6
