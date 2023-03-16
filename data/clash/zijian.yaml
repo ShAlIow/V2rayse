@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-14 10:07:08
+# 创建时间：2023-03-16 12:54:38
 # 使用模版：ShAllow
-# 节点数量：30
+# 节点数量：35
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -22,16 +22,19 @@ dns:
     - tls://dns.google:853
 
 proxies:
+  - {"name":"Replit-US-2","type":"trojan","server":"uzi.elvissulive.repl.co","port":443,"udp":true,"password":"c5ed8a3c-cffe-4fe3-a9d2-a467102126ab","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c5ed8a3c-cffe-4fe3-a9d2-a467102126ab-tr","headers":{"host":"uzi.elvissulive.repl.co"}}}
   - {"name":"Daki-DE","type":"trojan","server":"www.shopify.com","port":443,"udp":true,"password":"b7b28061-5e6d-4e11-b094-04d3c98a5dad","sni":"daki.elvissulive.eu.org","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argo-trojan","headers":{"host":"daki.elvissulive.eu.org"}}}
+  - {"name":"Daki-DE-2","type":"vmess","server":"www.shopify.com","port":443,"cipher":"none","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argo-vmess","headers":{"host":"daki.awm.mm.am"}}}
+  - {"name":"Daki-DE-3","type":"trojan","server":"www.digitalocean.com","port":443,"udp":true,"password":"de04add9-5c68-8bab-950c-08cd5320df18","sni":"daki.awm.mm.am","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argo-trojan","headers":{"host":"daki.awm.mm.am"}}}
   - {"name":"DO-SG-1","type":"vmess","server":"sg.elvissulive.eu.org","port":443,"cipher":"auto","uuid":"fee2849b-1073-432b-e51f-9366837b37e4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fee2849b-1073-432b-e51f-9366837b37e4"}}
   - {"name":"DO-SG-1-CFT","type":"vmess","server":"d1raml4du4cf7h.cloudfront.net","port":443,"cipher":"auto","uuid":"fee2849b-1073-432b-e51f-9366837b37e4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fee2849b-1073-432b-e51f-9366837b37e4"}}
   - {"name":"DO-SG-2","type":"vmess","server":"cf.000714.xyz","port":8880,"cipher":"auto","uuid":"ceac56b6-fa31-44ab-ee48-b04b6bca3b16","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"dosg.elvissu.cloudns.ph"}}}
   - {"name":"DO-US-1-CF","type":"vmess","server":"icook.tw","port":443,"cipher":"auto","uuid":"01976f19-dfd1-434f-ef19-0c2b98474c40","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/01976f19-dfd1-434f-ef19-0c2b98474c40","headers":{"host":"elvissulive.eu.org"}}}
-  - {"name":"DO-US-2_1","type":"vmess","server":"146.190.122.127","port":1234,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray"}}
-  - {"name":"DO-US-2_2","type":"vmess","server":"ts.elvissu.cloudns.ph","port":26107,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts"}}
+  - {"name":"DO-US-2-1","type":"vmess","server":"146.190.122.127","port":1234,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray"}}
+  - {"name":"DO-US-2-2","type":"vmess","server":"ts.elvissu.cloudns.ph","port":26107,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts"}}
   - {"name":"DO-US-2-CFT","type":"vmess","server":"d1ysd5vy8elgfc.cloudfront.net","port":443,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts"}}
   - {"name":"DO-US-2-GCORE","type":"vmess","server":"www.shopify.com","port":443,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"g.elvissulive.eu.org"}}}
-  - {"name":"Doprax-DE_1","type":"trojan","server":"www.shopify.com","port":443,"udp":true,"password":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","sni":"dop.silves.pro","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-tr","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"Doprax-DE-1","type":"trojan","server":"www.shopify.com","port":443,"udp":true,"password":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","sni":"dop.silves.pro","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-tr","headers":{"host":"dop.silves.pro"}}}
   - {"name":"Doprax-DE-2","type":"vmess","server":"cf.000714.xyz","port":2082,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
   - {"name":"Doprax-DE-3","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
   - {"name":"Doprax-DE-4","type":"vmess","server":"www.shopify.com","port":443,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
@@ -39,15 +42,17 @@ proxies:
   - {"name":"Doprax-DE-6","type":"vmess","server":"www.shopify.com","port":2053,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","headers":{"host":"dop.silves.pro"}}}
   - {"name":"EC2-SG","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"ccd1aeea-7485-44ea-faec-00d9497a1e82","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray","headers":{"host":"s.elvissulive.eu.org"}}}
   - {"name":"Esvps","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"f6cbd3d0-d824-4419-a5dd-5720f27c13f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f6cbd3d0-d824-4419-a5dd-5720f27c13f0","headers":{"host":"es.ae86.app"}}}
+  - {"name":"Esvps-2","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"29d00784-5a0f-4d60-8344-72b0485c26e2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/29d00784-5a0f-4d60-8344-72b0485c26e2","headers":{"host":"es2.elvissulive.eu.org"}}}
+  - {"name":"Frvps-1","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"3a8318ea-3aba-4676-9210-a95a44302b6b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/3a8318ea-3aba-4676-9210-a95a44302b6b","headers":{"host":"fr1.elvissulive.eu.org"}}}
+  - {"name":"Frvps-2","type":"vmess","server":"cdn.imnibaba.tk","port":8080,"cipher":"auto","uuid":"d0794035-51a9-4752-abbc-750517ea41d9","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/d0794035-51a9-4752-abbc-750517ea41d9","headers":{"host":"fr2.elvissulive.eu.org"}}}
   - {"name":"Hax-EU-1","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"a3cd72cf-b471-4093-d3de-acb34ac4578f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/a3cd72cf-b471-4093-d3de-acb34ac4578f","headers":{"host":"heu.elvissulive.eu.org"}}}
   - {"name":"Hax-EU-4","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"6ca7c605-da24-4562-bd79-210898d4b2c8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6ca7c605-da24-4562-bd79-210898d4b2c8","headers":{"host":"heu4.elvissulive.eu.org"}}}
   - {"name":"Lightsail-JP","type":"vmess","server":"13.35.13.239","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151","headers":{"host":"ds1v82c5l2z56.cloudfront.net"}}}
   - {"name":"Lightsail-JP-CFT","type":"vmess","server":"ds1v82c5l2z56.cloudfront.net","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151"}}
-  - {"name":"Replit-IN_1","type":"trojan","server":"le.esae86.repl.co","port":443,"udp":true,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-tr","headers":{"host":"le.esae86.repl.co"}}}
+  - {"name":"Replit-IN-1","type":"trojan","server":"le.esae86.repl.co","port":443,"udp":true,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-tr","headers":{"host":"le.esae86.repl.co"}}}
   - {"name":"Replit-IN-2","type":"vmess","server":"cf.000714.xyz","port":80,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"node.scarsslife.workers.dev"}}}
   - {"name":"Replit-IN-3","type":"vmess","server":"le.esae86.repl.co","port":443,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"le.esae86.repl.co"}}}
   - {"name":"Replit-US-1","type":"vmess","server":"uzi.elvissulive.repl.co","port":443,"cipher":"auto","uuid":"c5ed8a3c-cffe-4fe3-a9d2-a467102126ab","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c5ed8a3c-cffe-4fe3-a9d2-a467102126ab-vm","headers":{"host":"uzi.elvissulive.repl.co"}}}
-  - {"name":"Replit-US-2","type":"trojan","server":"uzi.elvissulive.repl.co","port":443,"udp":true,"password":"c5ed8a3c-cffe-4fe3-a9d2-a467102126ab","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c5ed8a3c-cffe-4fe3-a9d2-a467102126ab-tr","headers":{"host":"uzi.elvissulive.repl.co"}}}
   - {"name":"VC-CA1","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"0cef6fad-037f-4ee4-b662-55ba5d8882ca","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0cef6fad-037f-4ee4-b662-55ba5d8882ca","headers":{"host":"vca.elvissulive.eu.org"}}}
   - {"name":"VC-EU3","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"ddf88167-b298-446d-a765-517f79a71a0a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ddf88167-b298-446d-a765-517f79a71a0a","headers":{"host":"vc.elvissulive.eu.org"}}}
   - {"name":"Woiden-EU-6","type":"vmess","server":"www.shopify.com","port":443,"cipher":"auto","uuid":"0b83af40-a16f-431d-fcd0-6bc9099e3337","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0b83af40-a16f-431d-fcd0-6bc9099e3337","headers":{"host":"new.elvissulive.eu.org"}}}
@@ -58,16 +63,19 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - Replit-US-2
       - Daki-DE
+      - Daki-DE-2
+      - Daki-DE-3
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
       - DO-US-1-CF
-      - DO-US-2_1
-      - DO-US-2_2
+      - DO-US-2-1
+      - DO-US-2-2
       - DO-US-2-CFT
       - DO-US-2-GCORE
-      - Doprax-DE_1
+      - Doprax-DE-1
       - Doprax-DE-2
       - Doprax-DE-3
       - Doprax-DE-4
@@ -75,15 +83,17 @@ proxy-groups:
       - Doprax-DE-6
       - EC2-SG
       - Esvps
+      - Esvps-2
+      - Frvps-1
+      - Frvps-2
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - Replit-IN_1
+      - Replit-IN-1
       - Replit-IN-2
       - Replit-IN-3
       - Replit-US-1
-      - Replit-US-2
       - VC-CA1
       - VC-EU3
       - Woiden-EU-6
@@ -94,16 +104,19 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - Replit-US-2
       - Daki-DE
+      - Daki-DE-2
+      - Daki-DE-3
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
       - DO-US-1-CF
-      - DO-US-2_1
-      - DO-US-2_2
+      - DO-US-2-1
+      - DO-US-2-2
       - DO-US-2-CFT
       - DO-US-2-GCORE
-      - Doprax-DE_1
+      - Doprax-DE-1
       - Doprax-DE-2
       - Doprax-DE-3
       - Doprax-DE-4
@@ -111,15 +124,17 @@ proxy-groups:
       - Doprax-DE-6
       - EC2-SG
       - Esvps
+      - Esvps-2
+      - Frvps-1
+      - Frvps-2
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - Replit-IN_1
+      - Replit-IN-1
       - Replit-IN-2
       - Replit-IN-3
       - Replit-US-1
-      - Replit-US-2
       - VC-CA1
       - VC-EU3
       - Woiden-EU-6
@@ -130,16 +145,19 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Replit-US-2
       - Daki-DE
+      - Daki-DE-2
+      - Daki-DE-3
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
       - DO-US-1-CF
-      - DO-US-2_1
-      - DO-US-2_2
+      - DO-US-2-1
+      - DO-US-2-2
       - DO-US-2-CFT
       - DO-US-2-GCORE
-      - Doprax-DE_1
+      - Doprax-DE-1
       - Doprax-DE-2
       - Doprax-DE-3
       - Doprax-DE-4
@@ -147,15 +165,17 @@ proxy-groups:
       - Doprax-DE-6
       - EC2-SG
       - Esvps
+      - Esvps-2
+      - Frvps-1
+      - Frvps-2
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - Replit-IN_1
+      - Replit-IN-1
       - Replit-IN-2
       - Replit-IN-3
       - Replit-US-1
-      - Replit-US-2
       - VC-CA1
       - VC-EU3
       - Woiden-EU-6
@@ -166,16 +186,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Replit-US-2
       - Daki-DE
+      - Daki-DE-2
+      - Daki-DE-3
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
       - DO-US-1-CF
-      - DO-US-2_1
-      - DO-US-2_2
+      - DO-US-2-1
+      - DO-US-2-2
       - DO-US-2-CFT
       - DO-US-2-GCORE
-      - Doprax-DE_1
+      - Doprax-DE-1
       - Doprax-DE-2
       - Doprax-DE-3
       - Doprax-DE-4
@@ -183,15 +206,17 @@ proxy-groups:
       - Doprax-DE-6
       - EC2-SG
       - Esvps
+      - Esvps-2
+      - Frvps-1
+      - Frvps-2
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - Replit-IN_1
+      - Replit-IN-1
       - Replit-IN-2
       - Replit-IN-3
       - Replit-US-1
-      - Replit-US-2
       - VC-CA1
       - VC-EU3
       - Woiden-EU-6
@@ -201,16 +226,19 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Replit-US-2
       - Daki-DE
+      - Daki-DE-2
+      - Daki-DE-3
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
       - DO-US-1-CF
-      - DO-US-2_1
-      - DO-US-2_2
+      - DO-US-2-1
+      - DO-US-2-2
       - DO-US-2-CFT
       - DO-US-2-GCORE
-      - Doprax-DE_1
+      - Doprax-DE-1
       - Doprax-DE-2
       - Doprax-DE-3
       - Doprax-DE-4
@@ -218,15 +246,17 @@ proxy-groups:
       - Doprax-DE-6
       - EC2-SG
       - Esvps
+      - Esvps-2
+      - Frvps-1
+      - Frvps-2
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - Replit-IN_1
+      - Replit-IN-1
       - Replit-IN-2
       - Replit-IN-3
       - Replit-US-1
-      - Replit-US-2
       - VC-CA1
       - VC-EU3
       - Woiden-EU-6
@@ -236,16 +266,19 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - Replit-US-2
       - Daki-DE
+      - Daki-DE-2
+      - Daki-DE-3
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
       - DO-US-1-CF
-      - DO-US-2_1
-      - DO-US-2_2
+      - DO-US-2-1
+      - DO-US-2-2
       - DO-US-2-CFT
       - DO-US-2-GCORE
-      - Doprax-DE_1
+      - Doprax-DE-1
       - Doprax-DE-2
       - Doprax-DE-3
       - Doprax-DE-4
@@ -253,15 +286,17 @@ proxy-groups:
       - Doprax-DE-6
       - EC2-SG
       - Esvps
+      - Esvps-2
+      - Frvps-1
+      - Frvps-2
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - Replit-IN_1
+      - Replit-IN-1
       - Replit-IN-2
       - Replit-IN-3
       - Replit-US-1
-      - Replit-US-2
       - VC-CA1
       - VC-EU3
       - Woiden-EU-6
@@ -271,16 +306,19 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - Replit-US-2
       - Daki-DE
+      - Daki-DE-2
+      - Daki-DE-3
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
       - DO-US-1-CF
-      - DO-US-2_1
-      - DO-US-2_2
+      - DO-US-2-1
+      - DO-US-2-2
       - DO-US-2-CFT
       - DO-US-2-GCORE
-      - Doprax-DE_1
+      - Doprax-DE-1
       - Doprax-DE-2
       - Doprax-DE-3
       - Doprax-DE-4
@@ -288,15 +326,17 @@ proxy-groups:
       - Doprax-DE-6
       - EC2-SG
       - Esvps
+      - Esvps-2
+      - Frvps-1
+      - Frvps-2
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - Replit-IN_1
+      - Replit-IN-1
       - Replit-IN-2
       - Replit-IN-3
       - Replit-US-1
-      - Replit-US-2
       - VC-CA1
       - VC-EU3
       - Woiden-EU-6
@@ -328,16 +368,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Replit-US-2
       - Daki-DE
+      - Daki-DE-2
+      - Daki-DE-3
       - DO-SG-1
       - DO-SG-1-CFT
       - DO-SG-2
       - DO-US-1-CF
-      - DO-US-2_1
-      - DO-US-2_2
+      - DO-US-2-1
+      - DO-US-2-2
       - DO-US-2-CFT
       - DO-US-2-GCORE
-      - Doprax-DE_1
+      - Doprax-DE-1
       - Doprax-DE-2
       - Doprax-DE-3
       - Doprax-DE-4
@@ -345,15 +388,17 @@ proxy-groups:
       - Doprax-DE-6
       - EC2-SG
       - Esvps
+      - Esvps-2
+      - Frvps-1
+      - Frvps-2
       - Hax-EU-1
       - Hax-EU-4
       - Lightsail-JP
       - Lightsail-JP-CFT
-      - Replit-IN_1
+      - Replit-IN-1
       - Replit-IN-2
       - Replit-IN-3
       - Replit-US-1
-      - Replit-US-2
       - VC-CA1
       - VC-EU3
       - Woiden-EU-6
