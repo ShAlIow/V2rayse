@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-24 11:46:47
+# 创建时间：2023-03-25 08:48:26
 # 使用模版：ShAllow
-# 节点数量：32
+# 节点数量：33
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -54,6 +54,7 @@ proxies:
   - {"name":"VC-CA1","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"0cef6fad-037f-4ee4-b662-55ba5d8882ca","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0cef6fad-037f-4ee4-b662-55ba5d8882ca?ed=2048","headers":{"host":"vca.elvissulive.eu.org"}}}
   - {"name":"VC-EU3","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"ddf88167-b298-446d-a765-517f79a71a0a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ddf88167-b298-446d-a765-517f79a71a0a?ed=2048","headers":{"host":"vc.elvissulive.eu.org"}}}
   - {"name":"Woiden-EU-8","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"c319024b-7dc8-4733-9fff-bb1ae7367d25","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c319024b-7dc8-4733-9fff-bb1ae7367d25?ed=2048","headers":{"host":"weu8.ae86.app"}}}
+  - {"name":"Woiden-EU-BEST-1","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"10257db3-2f7e-45a9-9ac5-6932276b8f2d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/10257db3-2f7e-45a9-9ac5-6932276b8f2d?ed=2048","headers":{"host":"wb.elvissulive.eu.org"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -92,6 +93,7 @@ proxy-groups:
       - VC-CA1
       - VC-EU3
       - Woiden-EU-8
+      - Woiden-EU-BEST-1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -130,6 +132,7 @@ proxy-groups:
       - VC-CA1
       - VC-EU3
       - Woiden-EU-8
+      - Woiden-EU-BEST-1
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -168,6 +171,7 @@ proxy-groups:
       - VC-CA1
       - VC-EU3
       - Woiden-EU-8
+      - Woiden-EU-BEST-1
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -206,6 +210,7 @@ proxy-groups:
       - VC-CA1
       - VC-EU3
       - Woiden-EU-8
+      - Woiden-EU-BEST-1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -243,6 +248,7 @@ proxy-groups:
       - VC-CA1
       - VC-EU3
       - Woiden-EU-8
+      - Woiden-EU-BEST-1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -280,6 +286,7 @@ proxy-groups:
       - VC-CA1
       - VC-EU3
       - Woiden-EU-8
+      - Woiden-EU-BEST-1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -317,6 +324,7 @@ proxy-groups:
       - VC-CA1
       - VC-EU3
       - Woiden-EU-8
+      - Woiden-EU-BEST-1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -376,6 +384,7 @@ proxy-groups:
       - VC-CA1
       - VC-EU3
       - Woiden-EU-8
+      - Woiden-EU-BEST-1
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
