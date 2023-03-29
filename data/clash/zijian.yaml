@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-27 04:06:40
+# 创建时间：2023-03-29 08:48:28
 # 使用模版：ShAllow
-# 节点数量：33
+# 节点数量：34
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -33,7 +33,7 @@ proxies:
   - {"name":"德国-Doprax-CF-1","type":"vmess","server":"cf.unioreo.rip","port":2053,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm?ed=2048","headers":{"host":"dop.silves.pro"}}}
   - {"name":"德国-Doprax-CF-2","type":"vmess","server":"cf.unioreo.rip","port":443,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm?ed=2048","headers":{"host":"dop.silves.pro"}}}
   - {"name":"德国-Doprax-CF-3","type":"trojan","server":"cf.unioreo.rip","port":443,"udp":true,"password":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","sni":"dop.silves.pro","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-tr","headers":{"host":"dop.silves.pro"}}}
-  - {"name":"德国-Doprax-CF-4","type":"vmess","server":"cf.unioreo.rip","port":2082,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm?ed=2048","headers":{"host":"dop.silves.pro"}}}
+  - {"name":"德国-Doprax-CF-4","type":"vmess","server":"cf.000714.xyz","port":2082,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm?ed=2048","headers":{"host":"dop.silves.pro"}}}
   - {"name":"德国-Doprax-CF-5","type":"vmess","server":"cf.unioreo.rip","port":80,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm?ed=2048","headers":{"host":"dop.silves.pro"}}}
   - {"name":"德国-Doprax-CF-6","type":"vmess","server":"cf.unioreo.rip","port":2083,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm?ed=2048","headers":{"host":"dop.silves.pro"}}}
   - {"name":"德国-Hax-CF","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"a3cd72cf-b471-4093-d3de-acb34ac4578f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/a3cd72cf-b471-4093-d3de-acb34ac4578f?ed=2048","headers":{"host":"heu.elvissulive.eu.org"}}}
@@ -42,10 +42,11 @@ proxies:
   - {"name":"新加坡-DO-CF","type":"vmess","server":"cf.unioreo.rip","port":8880,"cipher":"auto","uuid":"ceac56b6-fa31-44ab-ee48-b04b6bca3b16","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray?ed=2048","headers":{"host":"dosg.elvissu.cloudns.ph"}}}
   - {"name":"新加坡-EC2-CF","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"ccd1aeea-7485-44ea-faec-00d9497a1e82","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray?ed=2048","headers":{"host":"s.elvissulive.eu.org"}}}
   - {"name":"新加坡-Patr-CF-1","type":"vmess","server":"cf.unioreo.rip","port":443,"cipher":"auto","uuid":"73a9dad0-4d9b-4c39-8540-1a262016249a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess?ed=2048","headers":{"host":"patr.awm.of.to"}}}
-  - {"name":"新加坡-Patr-CF-2","type":"vmess","server":"cf.unioreo.rip","port":2082,"cipher":"auto","uuid":"73a9dad0-4d9b-4c39-8540-1a262016249a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess?ed=2048","headers":{"host":"patr.awm.of.to"}}}
+  - {"name":"新加坡-Patr-CF-2","type":"vmess","server":"cf.000714.xyz","port":2082,"cipher":"auto","uuid":"73a9dad0-4d9b-4c39-8540-1a262016249a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess?ed=2048","headers":{"host":"patr.awm.of.to"}}}
   - {"name":"新加坡-Patr-CF-3","type":"vmess","server":"cf.unioreo.rip","port":8443,"cipher":"auto","uuid":"73a9dad0-4d9b-4c39-8540-1a262016249a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess?ed=2048","headers":{"host":"patr.awm.of.to"}}}
   - {"name":"日本-Lightsail-CFT-1","type":"vmess","server":"13.35.13.239","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151","headers":{"host":"ds1v82c5l2z56.cloudfront.net"}}}
   - {"name":"日本-Lightsail-CFT-2","type":"vmess","server":"ds1v82c5l2z56.cloudfront.net","port":443,"cipher":"auto","uuid":"4800d477-9238-4ff2-fedd-11b6e471b151","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/4800d477-9238-4ff2-fedd-11b6e471b151"}}
+  - {"name":"法国-Scaleway-CF","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"47fc76a9-3428-4a87-9b6e-c2e660f452e5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/47fc76a9-3428-4a87-9b6e-c2e660f452e5?ed=2048","headers":{"host":"sfr.elvissulive.eu.org"}}}
   - {"name":"法国-Woiden-CF","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"c319024b-7dc8-4733-9fff-bb1ae7367d25","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c319024b-7dc8-4733-9fff-bb1ae7367d25?ed=2048","headers":{"host":"weu8.ae86.app"}}}
   - {"name":"美国-DO-CFT-1","type":"vmess","server":"d1ysd5vy8elgfc.cloudfront.net","port":443,"cipher":"auto","uuid":"a95ab7ef-2fe0-464e-b445-8bb0b89ec14e","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ts"}}
   - {"name":"美国-DO-Gcore-2","type":"vmess","server":"cf.unioreo.rip","port":443,"cipher":"auto","uuid":"c245d5b7-89fb-4171-c515-06fea6d9d554","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ray?ed=2048","headers":{"host":"g.elvissulive.eu.org"}}}
@@ -85,6 +86,7 @@ proxy-groups:
       - 新加坡-Patr-CF-3
       - 日本-Lightsail-CFT-1
       - 日本-Lightsail-CFT-2
+      - 法国-Scaleway-CF
       - 法国-Woiden-CF
       - 美国-DO-CFT-1
       - 美国-DO-Gcore-2
@@ -124,6 +126,7 @@ proxy-groups:
       - 新加坡-Patr-CF-3
       - 日本-Lightsail-CFT-1
       - 日本-Lightsail-CFT-2
+      - 法国-Scaleway-CF
       - 法国-Woiden-CF
       - 美国-DO-CFT-1
       - 美国-DO-Gcore-2
@@ -163,6 +166,7 @@ proxy-groups:
       - 新加坡-Patr-CF-3
       - 日本-Lightsail-CFT-1
       - 日本-Lightsail-CFT-2
+      - 法国-Scaleway-CF
       - 法国-Woiden-CF
       - 美国-DO-CFT-1
       - 美国-DO-Gcore-2
@@ -202,6 +206,7 @@ proxy-groups:
       - 新加坡-Patr-CF-3
       - 日本-Lightsail-CFT-1
       - 日本-Lightsail-CFT-2
+      - 法国-Scaleway-CF
       - 法国-Woiden-CF
       - 美国-DO-CFT-1
       - 美国-DO-Gcore-2
@@ -240,6 +245,7 @@ proxy-groups:
       - 新加坡-Patr-CF-3
       - 日本-Lightsail-CFT-1
       - 日本-Lightsail-CFT-2
+      - 法国-Scaleway-CF
       - 法国-Woiden-CF
       - 美国-DO-CFT-1
       - 美国-DO-Gcore-2
@@ -278,6 +284,7 @@ proxy-groups:
       - 新加坡-Patr-CF-3
       - 日本-Lightsail-CFT-1
       - 日本-Lightsail-CFT-2
+      - 法国-Scaleway-CF
       - 法国-Woiden-CF
       - 美国-DO-CFT-1
       - 美国-DO-Gcore-2
@@ -316,6 +323,7 @@ proxy-groups:
       - 新加坡-Patr-CF-3
       - 日本-Lightsail-CFT-1
       - 日本-Lightsail-CFT-2
+      - 法国-Scaleway-CF
       - 法国-Woiden-CF
       - 美国-DO-CFT-1
       - 美国-DO-Gcore-2
@@ -376,6 +384,7 @@ proxy-groups:
       - 新加坡-Patr-CF-3
       - 日本-Lightsail-CFT-1
       - 日本-Lightsail-CFT-2
+      - 法国-Scaleway-CF
       - 法国-Woiden-CF
       - 美国-DO-CFT-1
       - 美国-DO-Gcore-2
