@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-29 08:48:28
+# 创建时间：2023-03-30 08:32:53
 # 使用模版：ShAllow
-# 节点数量：34
+# 节点数量：35
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -54,6 +54,7 @@ proxies:
   - {"name":"美国-Replit-1","type":"vmess","server":"uzi.elvissulive.repl.co","port":443,"cipher":"auto","uuid":"c5ed8a3c-cffe-4fe3-a9d2-a467102126ab","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c5ed8a3c-cffe-4fe3-a9d2-a467102126ab-vm","headers":{"host":"uzi.elvissulive.repl.co"}}}
   - {"name":"美国-Replit-2","type":"trojan","server":"uzi.elvissulive.repl.co","port":443,"udp":true,"password":"c5ed8a3c-cffe-4fe3-a9d2-a467102126ab","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c5ed8a3c-cffe-4fe3-a9d2-a467102126ab-tr","headers":{"host":"uzi.elvissulive.repl.co"}}}
   - {"name":"英国-DO-CF","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"41c47e26-fd7e-4ece-d059-50a585979546","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/41c47e26-fd7e-4ece-d059-50a585979546?ed=2048","headers":{"host":"gb.elvissulive.eu.org"}}}
+  - {"name":"荷兰-Scaleway-CF","type":"vmess","server":"cdn.wuki.moe","port":8080,"cipher":"auto","uuid":"a1c46433-b9bc-4ccf-ade2-05d0d4a863f7","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/a1c46433-b9bc-4ccf-ade2-05d0d4a863f7?ed=2048","headers":{"host":"snl.elvissulive.eu.org"}}}
   - {"name":"西班牙-Esvpsfree-CF-1","type":"vmess","server":"cf.unioreo.rip","port":8080,"cipher":"auto","uuid":"f6cbd3d0-d824-4419-a5dd-5720f27c13f0","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f6cbd3d0-d824-4419-a5dd-5720f27c13f0?ed=2048","headers":{"host":"es.ae86.app"}}}
   - {"name":"西班牙-Esvpsfree-CF-2","type":"vmess","server":"cf.000714.xyz","port":8080,"cipher":"auto","uuid":"29d00784-5a0f-4d60-8344-72b0485c26e2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/29d00784-5a0f-4d60-8344-72b0485c26e2?ed=2048","headers":{"host":"es2.elvissulive.eu.org"}}}
 proxy-groups:
@@ -94,6 +95,7 @@ proxy-groups:
       - 美国-Replit-1
       - 美国-Replit-2
       - 英国-DO-CF
+      - 荷兰-Scaleway-CF
       - 西班牙-Esvpsfree-CF-1
       - 西班牙-Esvpsfree-CF-2
   - name: ♻️ 自动选择
@@ -134,6 +136,7 @@ proxy-groups:
       - 美国-Replit-1
       - 美国-Replit-2
       - 英国-DO-CF
+      - 荷兰-Scaleway-CF
       - 西班牙-Esvpsfree-CF-1
       - 西班牙-Esvpsfree-CF-2
   - name: 🌍 国外媒体
@@ -174,6 +177,7 @@ proxy-groups:
       - 美国-Replit-1
       - 美国-Replit-2
       - 英国-DO-CF
+      - 荷兰-Scaleway-CF
       - 西班牙-Esvpsfree-CF-1
       - 西班牙-Esvpsfree-CF-2
   - name: 📢 谷歌FCM
@@ -214,6 +218,7 @@ proxy-groups:
       - 美国-Replit-1
       - 美国-Replit-2
       - 英国-DO-CF
+      - 荷兰-Scaleway-CF
       - 西班牙-Esvpsfree-CF-1
       - 西班牙-Esvpsfree-CF-2
   - name: 📲 电报信息
@@ -253,6 +258,7 @@ proxy-groups:
       - 美国-Replit-1
       - 美国-Replit-2
       - 英国-DO-CF
+      - 荷兰-Scaleway-CF
       - 西班牙-Esvpsfree-CF-1
       - 西班牙-Esvpsfree-CF-2
   - name: Ⓜ️ 微软服务
@@ -292,6 +298,7 @@ proxy-groups:
       - 美国-Replit-1
       - 美国-Replit-2
       - 英国-DO-CF
+      - 荷兰-Scaleway-CF
       - 西班牙-Esvpsfree-CF-1
       - 西班牙-Esvpsfree-CF-2
   - name: 🍎 苹果服务
@@ -331,6 +338,7 @@ proxy-groups:
       - 美国-Replit-1
       - 美国-Replit-2
       - 英国-DO-CF
+      - 荷兰-Scaleway-CF
       - 西班牙-Esvpsfree-CF-1
       - 西班牙-Esvpsfree-CF-2
   - name: 🎯 全球直连
@@ -392,6 +400,7 @@ proxy-groups:
       - 美国-Replit-1
       - 美国-Replit-2
       - 英国-DO-CF
+      - 荷兰-Scaleway-CF
       - 西班牙-Esvpsfree-CF-1
       - 西班牙-Esvpsfree-CF-2
 
