@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-04-09 07:55:52
+# 创建时间：2023-04-09 07:58:49
 # 使用模版：ShAllow
 # 节点数量：15
 ####################################
@@ -22,7 +22,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"美国-Replit-2","type":"trojan","server":"uzi.elvissulive.repl.co","port":443,"udp":true,"password":"c5ed8a3c-cffe-4fe3-a9d2-a467102126ab","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c5ed8a3c-cffe-4fe3-a9d2-a467102126ab-tr","headers":{"host":"uzi.elvissulive.repl.co"}}}
   - {"name":"印度-Replit-1","type":"trojan","server":"le.esae86.repl.co","port":443,"udp":true,"password":"9630a44f-f6be-42b9-a3e7-c32ee471a147","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-tr","headers":{"host":"le.esae86.repl.co"}}}
   - {"name":"印度-Replit-2","type":"vmess","server":"le.esae86.repl.co","port":443,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm","headers":{"host":"le.esae86.repl.co"}}}
   - {"name":"印度-Replit-CF-3","type":"vmess","server":"nasa.imnibaba.wiki","port":80,"cipher":"auto","uuid":"9630a44f-f6be-42b9-a3e7-c32ee471a147","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/9630a44f-f6be-42b9-a3e7-c32ee471a147-vm?ed=2048","headers":{"host":"node.scarsslife.workers.dev"}}}
@@ -37,13 +36,13 @@ proxies:
   - {"name":"德国-Doprax-CF-5","type":"vmess","server":"nasa.imnibaba.wiki","port":8080,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess?ed=2048","headers":{"host":"dop.silves.pro"}}}
   - {"name":"德国-Doprax-CF-6","type":"vmess","server":"cf.unioreo.rip","port":2083,"cipher":"auto","uuid":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess?ed=2048","headers":{"host":"dop.silves.pro"}}}
   - {"name":"美国-Replit-1","type":"vmess","server":"uzi.elvissulive.repl.co","port":443,"cipher":"auto","uuid":"c5ed8a3c-cffe-4fe3-a9d2-a467102126ab","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c5ed8a3c-cffe-4fe3-a9d2-a467102126ab-vm","headers":{"host":"uzi.elvissulive.repl.co"}}}
+  - {"name":"美国-Replit-2","type":"trojan","server":"uzi.elvissulive.repl.co","port":443,"udp":true,"password":"c5ed8a3c-cffe-4fe3-a9d2-a467102126ab","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/c5ed8a3c-cffe-4fe3-a9d2-a467102126ab-tr","headers":{"host":"uzi.elvissulive.repl.co"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国-Replit-2
       - 印度-Replit-1
       - 印度-Replit-2
       - 印度-Replit-CF-3
@@ -58,13 +57,13 @@ proxy-groups:
       - 德国-Doprax-CF-5
       - 德国-Doprax-CF-6
       - 美国-Replit-1
+      - 美国-Replit-2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国-Replit-2
       - 印度-Replit-1
       - 印度-Replit-2
       - 印度-Replit-CF-3
@@ -79,13 +78,13 @@ proxy-groups:
       - 德国-Doprax-CF-5
       - 德国-Doprax-CF-6
       - 美国-Replit-1
+      - 美国-Replit-2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-Replit-2
       - 印度-Replit-1
       - 印度-Replit-2
       - 印度-Replit-CF-3
@@ -100,13 +99,13 @@ proxy-groups:
       - 德国-Doprax-CF-5
       - 德国-Doprax-CF-6
       - 美国-Replit-1
+      - 美国-Replit-2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-Replit-2
       - 印度-Replit-1
       - 印度-Replit-2
       - 印度-Replit-CF-3
@@ -121,12 +120,12 @@ proxy-groups:
       - 德国-Doprax-CF-5
       - 德国-Doprax-CF-6
       - 美国-Replit-1
+      - 美国-Replit-2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国-Replit-2
       - 印度-Replit-1
       - 印度-Replit-2
       - 印度-Replit-CF-3
@@ -141,12 +140,12 @@ proxy-groups:
       - 德国-Doprax-CF-5
       - 德国-Doprax-CF-6
       - 美国-Replit-1
+      - 美国-Replit-2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国-Replit-2
       - 印度-Replit-1
       - 印度-Replit-2
       - 印度-Replit-CF-3
@@ -161,12 +160,12 @@ proxy-groups:
       - 德国-Doprax-CF-5
       - 德国-Doprax-CF-6
       - 美国-Replit-1
+      - 美国-Replit-2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国-Replit-2
       - 印度-Replit-1
       - 印度-Replit-2
       - 印度-Replit-CF-3
@@ -181,6 +180,7 @@ proxy-groups:
       - 德国-Doprax-CF-5
       - 德国-Doprax-CF-6
       - 美国-Replit-1
+      - 美国-Replit-2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -208,7 +208,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-Replit-2
       - 印度-Replit-1
       - 印度-Replit-2
       - 印度-Replit-CF-3
@@ -223,6 +222,7 @@ proxy-groups:
       - 德国-Doprax-CF-5
       - 德国-Doprax-CF-6
       - 美国-Replit-1
+      - 美国-Replit-2
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
